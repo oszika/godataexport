@@ -1,0 +1,8 @@
+* dataexport
+** Context
+With Go, there is not official recommendation to export data using "go install".
+Dataexport generates source go file to export data :
+  - as bytes arrays
+  - using absolute paths
+** TODO
+  - Export path to $GOPATH/data/<package>/
